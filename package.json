@@ -22,7 +22,7 @@
         "ava": "0.22"
     },
     "scripts": {
-        "test": "mocha -t 30000 ./test/bootstrap.js && ava"
+        "test": "ava"
     },
     "ava": {
         "files": [

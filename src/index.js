@@ -18,7 +18,7 @@ const DIFF_FOLDER_PREFIX = '.diff';
 const CURRENT_FOLDER_PREFIX = '.current';
 
 function log(line) {
-    console.info(chalk.cyan(line));
+    // console.info(chalk.cyan(line));
 }
 
 /**
