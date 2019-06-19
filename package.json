@@ -2,24 +2,24 @@
     "name": "ava-puppeteer",
     "version": "0.1.0",
     "description": "An ava companion for snapshots testing with puppeteer",
-    "main": "index.js",
+    "main": "src/index.js",
     "repository": "git@github.com:jakwuh/ava-puppeteer.git",
     "author": "jakwuh <jakwuh@gmail.com>",
     "license": "MIT",
     "dependencies": {
-        "chalk": "^2.1.0",
-        "del": "^3.0.0",
-        "es6-promisify": "^5.0.0",
-        "global": "^4.3.2",
-        "looks-same": "^3.2.1",
-        "minimist": "^1.2.0",
-        "mkdirp-promise": "^5.0.1",
-        "puppeteer": "^0.10.1"
+        "chalk": "2.4.2",
+        "del": "^4.1.1",
+        "es6-promisify": "6.0.1",
+        "global": "4.4.0",
+        "looks-same": "7.2.1",
+        "minimist": "1.2.0",
+        "mkdirp-promise": "5.0.1",
+        "puppeteer": "1.17.0"
     },
     "devDependencies": {
-        "@types/chai": "^4.0.4",
-        "@types/mocha": "^2.2.42",
-        "ava": "0.22"
+        "@types/chai": "4.1.7",
+        "@types/mocha": "5.2.7",
+        "ava": "2.1.0"
     },
     "scripts": {
         "test": "ava"
