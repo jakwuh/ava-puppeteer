@@ -14,7 +14,7 @@
         "looks-same": "^3.2.1",
         "minimist": "^1.2.0",
         "mkdirp-promise": "^5.0.1",
-        "puppeteer": "^0.10.1"
+        "puppeteer": "^5.2.1"
     },
     "devDependencies": {
         "@types/chai": "^4.0.4",
